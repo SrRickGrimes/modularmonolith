@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Rick P",
+  "classifications": [ "Web" ],
+  "name": "Modular Monolith Template",
+  "identity": "Server",
+  "groupIdentity": "Server",
+  "shortName": "Server",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Server",
+  "preferNameDirectory": true,
+  "symbols": {
+    "includetest": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true"
+    }
+  }
+  //"sources": [
+  //  {
+  //    "modifiers": [
+  //      {
+  //        "condition": "(!includetest)",
+  //        "exclude": [ "MyProject.Console.Test/**/*" ]
+  //      }
+  //    ]
+  //  }
+  //]
+}

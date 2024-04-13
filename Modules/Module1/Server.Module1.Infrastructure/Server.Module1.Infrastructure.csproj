@@ -7,9 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Ardalis.Result" />
+    <PackageReference Include="MediatR"/>
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
     <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" />
   </ItemGroup>
-
+	<ItemGroup>
+		<InternalsVisibleTo Include="Server.Module1.Module" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Server.Module1.Contracts\Server.Module1.Contracts.csproj" />
+	</ItemGroup>
 </Project>

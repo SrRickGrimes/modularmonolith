@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "SrRickGrimes",
+  "classifications": ["Web", "API", "Monolith"],
+  "identity": "modularmonolith",
+  "name": "Modular Monolith Project",
+  "shortName": "modularmonolith",
+  "description": "A template for creating a modular Monolith Application with Clean Architecture.",
+  "defaultName": "Server",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Feedback",
+  "symbols": {
+    "moduleName": {
+      "type": "parameter",
+      "dataType": "string",
+      "description": "The name of the module to replace 'Feedback' in all relevant files and folder names.",
+      "replaces": "Feedback"
+    }
+  }
+}
