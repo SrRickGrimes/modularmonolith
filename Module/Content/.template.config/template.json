@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "SrRickGrimes",
+  "classifications": [
+    "Web",
+    "API",
+    "Monolith"
+  ],
+  "identity": "Server.Modular.Monolith.Module",
+  "name": "Modular Monolith Module Project",
+  "shortName": "modularmonolithmodule",
+  "description": "A template for creating a module using Clean Architecture",
+  "defaultName": "Server",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Server.Module1",
+  "preferNameDirectory": true,
+  "symbols": {
+    "moduleName": {
+      "type": "parameter",
+      "dataType": "string",
+      "description": "The name of the module to replace 'Server.Module1' in all relevant files and folder names.",
+      "replaces": "Server.Module1"
+    }
+  }
+}

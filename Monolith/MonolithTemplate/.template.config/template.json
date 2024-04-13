@@ -18,11 +18,12 @@
   "sourceName": "Server",
   "preferNameDirectory": true,
   "symbols": {
-    "moduleName": {
+    "serverNamespacePrefixName": {
       "type": "parameter",
       "dataType": "string",
-      "description": "The name of the module to replace 'Server' in all relevant files and folder names.",
-      "replaces": "Module1"
+      "description": "The name of the module to replace 'Server' in all relevant files and folder names. it is recommended the name of the project and this parameter are the same",
+      "replaces": "Server",
+      "defaultValue": "Server"
     }
   }
 }
