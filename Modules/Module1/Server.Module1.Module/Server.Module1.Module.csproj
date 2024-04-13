@@ -8,9 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Server.CrossCuttingConcerns\Server.CrossCuttingConcerns.csproj" />
-    <ProjectReference Include="..\Server.Module1.Application\Server.Module1.Application.csproj" />
-    <ProjectReference Include="..\Server.Module1.EndPoints\Server.Module1.EndPoints.csproj" />
-    <ProjectReference Include="..\Server.Module1.Infrastructure\Server.Module1.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,23 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+	  <PackageVersion Include="Ardalis.Result" Version="8.0.0" />
+	  <PackageVersion Include="MediatR" Version="12.2.0" />
+	  <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+	  <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+	  <PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="8.0.0" />
+	  <PackageVersion Include="FastEndpoints" Version="5.24.0" />
+	  <PackageVersion Include="FastEndpoints.Generator" Version="5.24.0">
+	  </PackageVersion>
+	  <PackageVersion Include="Scrutor" Version="4.2.2" />
+	  <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	  <PackageVersion Include="FluentValidation" Version="11.9.0" />
+	  <PackageVersion Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.0" />
+	  <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+	  <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+
+  </ItemGroup>
+
+</Project>
