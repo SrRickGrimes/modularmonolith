@@ -1,6 +1,7 @@
 # Modular Monolith with Clean Architecture Project Templates
 
 This repository contains two powerful project templates for creating applications using the Modular Monolith architecture with ASP.NET Core. These templates are designed to accelerate the development process of building scalable and maintainable web applications.
+![image](https://github.com/SrRickGrimes/modularmonolith/assets/81363560/2a0783df-8487-4aa0-9b36-5b8f018a8f2a)
 
 ## Technologies
 
